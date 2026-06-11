@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        .bor {
+            position: absolute;
+            top: 200px;
+            right: 150px;
+            height: 180px;
+            width: 300px;
+            border: 1px solid black;
+        }
+
+        .first {
+            background-color: red;
+            height: 60px;
+        }
+
+        .second {
+            background-color: black;
+            height: 60px;
+            width: 300px;
+
+            position: absolute;
+            z-index: 3;
+            top: 120px;
+        }
+
+        p {
+            text-align: center;
+            font-size: xx-large;
+            margin-bottom: 50px;
+            position: relative;
+            top: -20px;
+            bottom: 100px;
+            
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+<div class="bor" style="background-color: rgb(251, 251, 251);">
+    <div class="first"></div>
+    <p>الله اكبر</p>
+    <div class="second"></div>
+    <div class="third"></div>
+</div>
+</body>
+</html> 
